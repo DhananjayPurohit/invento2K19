@@ -5,6 +5,12 @@
     <!-- Required meta tags -->
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="keywords" content="invento, iet, davv, invento iet davv" />
+    <meta name="description" content="Invento is the annual tech festival of the Institute Of
+    Engineering And Technology, IET DAVV which is held in August and
+    September .This festival is the largest technical fest of central
+    India.It is one of the huge and highly acknowledged
+    technical fest. invento iet davv">
     <title>Invento</title>
     <link rel="icon" type="image/png" href="assets/images/favicon.png" />
     <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700" rel="stylesheet">
@@ -31,9 +37,9 @@
 <body class="index-page">
     <div class="loader-wrapper">
         <!-- Preloader -->
-        <script src="preloader.js"></script>
+        <!-- <script src="preloader.js"></script> -->
         <div id="preloader">
-            <div class="showbox">
+            <!-- <div class="showbox">
                 <div class="loader">
                     <svg class="circular" viewBox="25 25 50 50">
                         <circle class="path" cx="50" cy="50" r="20" fill="none" stroke-width="2"
@@ -51,8 +57,12 @@
                     <li>Invento18 had more than 20 Workshops</li>
                     <li>Invento extends over a period of 2 days</li>
                 </ul>
-            </div>
+            </div> -->
+            <img src="assets/images/loader.gif" alt="">
         </div>
+        <!-- <video width="600" loop>
+            <source src="assets/images/loader-video.mp4" type="video/mp4">
+        </video> -->
     </div>
     <div id="img-bg"></div>
     <!-- <canvas id="c"></canvas> -->
@@ -71,8 +81,8 @@
                     </div><!-- .entry-header -->
 
                     <div class="col-12 home-top-btn">
-                        <a href="#" data-toggle="modal" data-target="#notOpen" target="about_blank" class="home-btn">GET
-                            PASSES</a>
+                        <a href="https://docs.google.com/forms/d/e/1FAIpQLSfWYT2C1vxPdWC7M379ChwsgDmlvPzEnzoy93CbEFNUoxi-aQ/viewform"
+                            target="about_blank" class="home-btn">REGISTER NOW</a>
                     </div>
 
                     <div class="countdown flex flex-wrap justify-content-between wow animated slideInUp"
@@ -100,15 +110,12 @@
 
                     <div class="home-btns desktop-display  col-md-12" style="font-size : 12px;">
                         <div class="col-md-6 home-btn-div wow animated slideInLeft">
-                            <a href="http://bit.do/register-invento-ca" target="about_blank" class="home-btn">CAMPUS
-                                AMBASSADOR</a>
+                            <a href="/passes" target="about_blank" class="home-btn">GET
+                                PASSES</a>
                         </div>
-                        <!-- <div class="col-md-4 home-btn-div wow animated slideInRight">
-                            <a a href="#" data-toggle="modal" data-target="#notOpen" target="about_blank" class="home-btn" >INVENTO QUIZ</a>
-                        </div> -->
                         <div class="col-md-6 home-btn-div wow animated slideInUp">
-                            <a a href="#" data-toggle="modal" data-target="#notOpen" target="about_blank"
-                                class="home-btn">REFERRAL PROGRAM</a>
+                            <a a href="referrals/leaderboard/index.html" target="about_blank"
+                                class="home-btn">REFERRAL</a>
                         </div>
                     </div>
                 </div><!-- .col-12 -->
@@ -140,7 +147,7 @@
                         <div class="lineup-artists-headline" id="about">
                             <div class="entry-title">
                                 <p>CENTRAL INDIA'S BIGGEST TECHNICAL EVENT</p>
-                                <h2>ABOUT INVENTO 19</h2>
+                                <h1 style="color: white">ABOUT INVENTO 19</h1>
                             </div><!-- entry-title -->
 
                             <div class="about-us">
@@ -177,6 +184,14 @@
                                             </div><!-- entry-content -->
 
                                         </div><!-- lineup-artists-description-container -->
+                                        <div class="row justify-content-center">
+                                            <div class="see-complete-lineup play-quiz">
+                                                <div class="entry-footer">
+                                                    <a href="https://quizinvento.herokuapp.com" target="about_blank"
+                                                        class="btn">Play Invento Quiz</a>
+                                                </div>
+                                            </div>
+                                        </div>
                                     </div><!-- lineup-artists-description -->
                                 </div><!-- lineup-artists-wrap -->
 
@@ -657,13 +672,13 @@
                         </div>
                     </div>
                 </div>
-                <!-- <div class="row justify-content-center">
-                        <div class="see-complete-lineup">
-                            <div class="entry-footer">
-                                <a href="team.html" class="btn">Meet Our Core Team</a>
-                            </div>
+                <div class="row justify-content-center">
+                    <div class="see-complete-lineup play-quiz">
+                        <div class="entry-footer">
+                            <a href="team.html" class="btn">Meet Our Core Team</a>
                         </div>
-                    </div> -->
+                    </div>
+                </div>
             </div>
         </section>
 
@@ -844,7 +859,6 @@
                                                 </button>
                                             </div>
                                         </form>
-                                        <a href="" class="referral">Visit the Invento referral program here</a>
                                         <!-- <div class="contact-form">
                                   <div class="row">
                                       <div class="col-12 col-md-6">
@@ -898,7 +912,34 @@
                         <button type="button" class="close" data-dismiss="modal">&times;</button>
                     </div>
                     <div class="modal-body">
-                        <p>Registrations will open from 10th Spetember</p>
+                        <p>To get your passes just fill this form annd we will contact us soon.</p>
+
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <div id="bookPasses" class="modal fade" role="dialog">
+            <div class="modal-dialog">
+
+                <!-- Modal content-->
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h4 class="modal-title">Invento 2K19</h4>
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    </div>
+                    <div class="modal-body">
+                        <p>Registrations will open from 10th Spetember</p><br>
+                        <div class="col-md-12 modal-btn-div">
+                            <a href="#" class="modal-btn">Register</a>
+                        </div>
+                        <div class="col-md-12 modal-btn-div">
+                            <a href="#" class="modal-btn">Download Brochure</a>
+                        </div>
                     </div>
                     <div class="modal-footer">
                         <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
@@ -925,6 +966,7 @@
         <script type='text/javascript' src='assets/js/jquery.countdown.min.js'></script>
         <script type='text/javascript' src='assets/js/jquery.countTo.min.js'></script>
         <script type='text/javascript' src='assets/js/custom.js'></script>
+        <script type='text/javascript' src='assets/js/formSubmit.js'></script>
         <!-- Global site tag (gtag.js) - Google Analytics -->
         <script async src="https://www.googletagmanager.com/gtag/js?id=UA-145171525-1"></script>
         <script>
